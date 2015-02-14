@@ -5,7 +5,7 @@ dna_seq=dna_file.read()replace('\n','')
 intronfile=open('introns.txt','w') # open the file introns.txt for writing and store its contents in the variable intronfile.
 exonfile=open('exons.txt','w') # open the file exons.txt for writing and store its contents in the variable exonfile.
 exonfile.write(dna_seq[0:63]=dna_seq[90:]) #write into exonfile: contents of dna_seq up to but not including the 63rd character, and then from the 90th character until the end.
-intronfile.write(dna_seq[63:90]) # write into intronfil: content of dna_seq from including the 63rd character up to but not including the 90th character
+intronfile.write(dna_seq[63:90]) # write into intronfile: content of dna_seq from including the 63rd character up to but not including the 90th character
 #close all used files
 dna_file.close()
 exonfile.close()

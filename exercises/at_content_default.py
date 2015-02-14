@@ -1,3 +1,4 @@
+
 from __future__ import division # import division function from python 3 to python 2
 def get_at_content(dna, significant_figures=2):
 '''takes the content of a file that was stored in a variable called 'dna'.
