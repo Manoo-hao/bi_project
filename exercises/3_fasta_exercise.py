@@ -11,5 +11,6 @@ fastafile3.write(">HIJ789"+"\n"+"ACTGAC-ACTGT--ACTGTA----CATGTG".replace("-","")
 fastafile1.close()
 fastafile2.close()
 fastafile3.close()
+#close all 3 newly created files
 print("Done")
-
+#print a statement to confirm that the code has functioned properly
